@@ -10,9 +10,6 @@
 #include <Keypad.h>
 #include <LiquidCrystal.h>
 
-#define redLED 33 //define the LED pins
-#define greenLED 34
-
 LiquidCrystal lcd(30,31,5,4,3,2);
 
 const byte ROWS = 4; //four rows
